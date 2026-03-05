@@ -49,6 +49,27 @@ outputs/     → charts and analysis outputs
 ![Resolution Time](outputs/avg_resolution_time_by_issue.png)
 ![SLA Breach Rate](outputs/sla_breach_rate_by_issue.png)
 
+## Key Insights
+
+### Support Operations
+
+Analysis of the support dataset shows:
+
+- The longest average resolution time occurs for **login issues (6.56 hours)** and **card declined issues (6.35 hours)**.
+- **Card declined issues have the highest SLA breach rate (>4 hours) at 71.8%**, followed closely by **login issues at 70.8%**.
+- This suggests operational improvements should focus on faster handling of authentication and payment-related problems.
+
+### Onboarding Funnel
+
+Analysis of the onboarding funnel shows:
+
+- **2000 users signed up**
+- **1752 users started KYC verification**
+- **1376 users completed KYC**
+- **948 users made their first transaction**
+
+This indicates that the largest drop-off occurs **after KYC completion before the first transaction**, suggesting an opportunity to improve user activation and onboarding guidance.
+
 ## How to run
 
 1. Download the repo (or clone it)
