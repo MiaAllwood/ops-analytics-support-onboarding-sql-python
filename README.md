@@ -44,6 +44,11 @@ sql/         → SQL queries analysing operational metrics
 notebooks/   → Python analysis and visualisations
 outputs/     → charts and analysis outputs
 ```
+
+## Example Visual Outputs
+![Resolution Time](outputs/avg_resolution_time_by_issue.png)
+![SLA Breach Rate](outputs/sla_breach_rate_by_issue.png)
+
 ## How to run
 
 1. Download the repo (or clone it)
