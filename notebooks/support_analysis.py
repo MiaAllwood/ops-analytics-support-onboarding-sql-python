@@ -1,8 +1,12 @@
 # Support Operations Analysis
 # This script analyses support ticket data to identify operational bottlenecks
 
+from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+df = pd.read_csv(BASE_DIR / "data" / "support_tickets_large.csv")
 
 df = pd.read_csv("../data/support_tickets_large.csv")
 
