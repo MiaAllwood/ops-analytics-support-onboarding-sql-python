@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Always create outputs folder (relative to repo root when running the script)
 os.makedirs("../outputs", exist_ok=True)
 
-df = pd.read_csv("../data/onboarding_funnel_large.csv")
+df = pd.read_csv("data/onboarding_funnel_large.csv")
 
 for col in ["signup_at", "kyc_started_at", "kyc_completed_at", "first_transaction_at"]:
     df[col] = pd.to_datetime(df[col], errors="coerce")
