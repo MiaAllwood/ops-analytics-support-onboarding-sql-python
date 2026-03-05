@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load onboarding dataset
-df = pd.read_csv("../data/onboarding_funnel_large.csv")
+df = pd.read_csv("data/onboarding_funnel_large.csv")
 
 # Convert to datetime
 for col in ["signup_at","kyc_started_at","kyc_completed_at","first_transaction_at"]:
