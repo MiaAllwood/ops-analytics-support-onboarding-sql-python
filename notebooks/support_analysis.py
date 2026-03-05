@@ -1,3 +1,7 @@
+# Support Operations Analysis
+# This script analyses support ticket data to identify operational bottlenecks,
+# including average resolution times and SLA breaches.
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
