@@ -44,3 +44,11 @@ sql/         → SQL queries analysing operational metrics
 notebooks/   → Python analysis and visualisations
 outputs/     → charts and analysis outputs
 ```
+## How to run
+
+1. Download the repo (or clone it)
+2. Install requirements:
+   - pandas
+   - matplotlib
+3. Run:
+   - notebooks/support_analysis.py
